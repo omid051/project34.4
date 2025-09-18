@@ -9,8 +9,8 @@ import random
 import subprocess
 
 # --- 🌐 تنظیمات اتصال به سرور ---
-API_URL = "https://deu.verify724.com/34.4/api.php"
-SECRET_KEY = "R1mLBuCHGZ5l1R061mY8GiMmuxC1Jx"
+API_URL = "https://example.com/34.4/api.php"
+SECRET_KEY = "secret"
 # ---------------------------------
 SETTINGS_FILE = "settings.json"
 
@@ -734,4 +734,5 @@ if __name__ == "__main__":
     app = App(root)
     login_toplevel = tk.Toplevel(root)
     login_window = LoginWindow(login_toplevel, app)
+
     root.mainloop()
